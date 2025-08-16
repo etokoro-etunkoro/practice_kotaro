@@ -27,7 +27,7 @@ else:
     count = True
 
 for i in range(3):
-    if not A[2-i][2-i] in marked:
+    if not A[i][2-i] in marked:
         break
 else:
     count = True
