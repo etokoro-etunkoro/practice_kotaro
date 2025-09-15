@@ -20,6 +20,7 @@ def bfs(u):
             if d[i] is None:    #uとの距離が初期化のままならば
                 d[i] = d[v] + 1 #i-u間の距離は、i-v間距離に+1
                 queue.append(i) #見つけた点リストにiを追加
+                
     return d
 
 #0からの各点の距離

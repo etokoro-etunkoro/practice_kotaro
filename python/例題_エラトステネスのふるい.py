@@ -24,3 +24,9 @@ def furui(N):
 [false, true, true, false, ...]というリストに[0]をくっつけて
 [0, false, true, true, false, ...]という新たなリストにしているんだね
 '''
+
+N = int(input())
+is_prime = [0]*N
+
+furui(N)
+
