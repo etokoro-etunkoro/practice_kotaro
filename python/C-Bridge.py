@@ -7,6 +7,7 @@ for i in range(M):
     B -= 1
     g[A].append(B)
     g[B].append(A)
+    
 
 from collections import deque
 d = [0] * N
@@ -23,4 +24,5 @@ def dfs(u):
 
     return d
         
-dfs(0)
+for i in range(M):
+    g

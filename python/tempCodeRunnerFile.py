@@ -1,1 +1,1 @@
-def dfs(n):
+kaubeki
