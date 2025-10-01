@@ -1,0 +1,10 @@
+# 依存パッケージは保存しない
+node_modules/
+
+# ビルド成果物も不要
+dist/
+public/bundle.js
+
+# OSやエディタのゴミファイル
+.DS_Store
+Thumbs.db

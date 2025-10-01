@@ -2,7 +2,7 @@
 N, M = map(int, input().split())
 g = [[]*N for _ in range(N)]
 for i in range(M):
-    A, B = map(int, input().split())
+    A + 
     A -= 1
     B -= 1
     g[A].append(B)
@@ -25,4 +25,5 @@ def dfs(u):
     return d
         
 for i in range(M):
-    g
+    #i番目の辺を外す
+    useBridge = g[:i] + g[i+1:] #i-1番目の辺まで + i+1番目の辺から
